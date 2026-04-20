@@ -1,21 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  background-color: #f9fafb; /* Light gray background */
+  color: #111827;            /* Near-black text */
 }
 
+/* This prevents browsers from forcing dark mode on your dad's site */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    background-color: #f9fafb;
+    color: #111827;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
