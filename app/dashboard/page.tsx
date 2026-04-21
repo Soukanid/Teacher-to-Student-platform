@@ -3,7 +3,7 @@ import { revalidatePath } from 'next/cache';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { cookies } from 'next/headers';
-
+export const maxDuration = 60;
 export default async function AdminDashboard({ 
   searchParams 
 }: { 
