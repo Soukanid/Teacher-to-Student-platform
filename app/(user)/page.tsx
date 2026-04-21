@@ -42,7 +42,7 @@ export default async function StudentLibrary({
 
         {/* Navigation Breadcrumb */}
         <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-zinc-400">
-           <Link href="/library" className="hover:text-zinc-900 transition-colors">Accueil</Link>
+           <Link href="/" className="hover:text-zinc-900 transition-colors">Accueil</Link>
            {currentFolderId && (
              <>
                <span className="text-zinc-200">/</span>
