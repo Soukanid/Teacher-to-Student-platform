@@ -5,7 +5,6 @@
   color: #111827;            /* Near-black text */
 }
 
-/* This prevents browsers from forcing dark mode on your dad's site */
 @media (prefers-color-scheme: dark) {
   :root {
     background-color: #f9fafb;
