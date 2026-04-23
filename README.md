@@ -1,4 +1,4 @@
-# 📦 EdBox: A simple library for my dad
+# A simple library for my dad
 
 I built this because my dad needed a clean way to share course materials with his students without the mess of Google Drive or the complexity of a full LMS. 
 
