@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📦 EdBox: A simple library for my dad
 
-## Getting Started
+I built this because my dad needed a clean way to share course materials with his students without the mess of Google Drive or the complexity of a full LMS. 
 
-First, run the development server:
+It’s a minimalist "Digital Library" where he can drop PDFs into folders from his phone, and his students can find them instantly. No ads, no tracking, just the lessons.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Why I built it this way
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **1. The "1337" Aesthetic**
+Coming from 1337, I’m obsessed with clean, high-contrast UIs. I used a **Zinc/Monochrome** theme with a subtle grainy texture to make it feel like "premium digital paper." It’s designed to be fast and distraction-free.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **2. Tech that stays out of the way**
+I didn't want a heavy backend or unnecessary complexity.
+* **Next.js 15 & Server Actions:** The whole site has zero API routes. Everything happens on the server, which makes it feel incredibly snappy.
+* **Supabase:** I used it for the database and file storage because it handles the heavy lifting of PDF hosting effortlessly.
+* **Custom Auth:** Since it's just for my dad, I built a custom password-protected dashboard using Middleware and cookies. No need for complex OAuth—just one secret code to enter his workspace.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **3. Smart File Management**
+The folder system is recursive. You can put a folder inside a folder inside a folder—just like a real filing cabinet. If he deletes a folder, the database automatically cleans up all the files inside it so the storage stays tidy.
 
-## Learn More
+## 🚀 How to use it
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Clone it:** `git clone ...`
+2.  **Environment:** Grab your Supabase keys and set an `ADMIN_PASSWORD` in your `.env.local`.
+3.  **Run it:** `npm run dev`
+4.  **Admin:** Go to `/dashboard` to start uploading.
+5.  **Students:** They just visit the home page—no login required.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👤 About me
+I’m **Soukaina**, a final-year student at **1337 Coding School**. I love building tools that solve real-world problems (and when I'm not coding, I'm usually out trail running or baking bread).
