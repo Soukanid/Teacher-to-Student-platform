@@ -21,8 +21,8 @@ The folder system is recursive. You can put a folder inside a folder inside a fo
 ### **4. Some pictures**
 
 <img width="1444" height="831" alt="Screenshot From 2026-04-23 19-39-25" src="https://github.com/user-attachments/assets/2ccea887-1249-453f-b7f1-1f6a136c179b" />
-
-<img width="1444" height="831" alt="Screenshot From 2026-04-23 19-39-45" src="https://github.com/user-attachments/assets/adc61b9d-a502-41b4-8677-613ba3d1b5dc" />
+                         -----------------------------------
+<img width="1444" height="831" alt="Screenshot From 2026-04-23 19-40-11" src="https://github.com/user-attachments/assets/af6148f6-e27c-4120-9481-d1de71af223f" />
 
 ## How to use it
 
